@@ -5,8 +5,8 @@ import sys
 
 Person = collections.namedtuple('Person', ['github_login', 'first_name', 'last_name', 'facts'])
 people = [
-    Person(github_login='example', first_name='Name', last_name='Surname',
-           facts=['Fact-right.', 'Fact-write.', 'Fact-right.']),
+    Person(github_login='maxuh14', first_name='Maxim', last_name='Sukhodolskii',
+           facts=['I am Maxim.', 'My name\'s Alexander.', 'I love maslo.']),
 ]
 
 answers = {}
